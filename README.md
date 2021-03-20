@@ -1,1 +1,1 @@
-# Bus-ticketing-system-in-JavaFX
+# Bus ticketing system in JavaFX Project
