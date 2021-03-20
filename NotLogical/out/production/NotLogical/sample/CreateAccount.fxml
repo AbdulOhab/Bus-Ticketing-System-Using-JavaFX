@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="616.0" style="-fx-background-color: #d0d3d4;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CreateAccountController">
+   <children>
+      <AnchorPane prefHeight="302.0" prefWidth="900.0" style="-fx-background-color: #9c0aef;" AnchorPane.bottomAnchor="397.6" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane layoutX="30.0" layoutY="36.0" prefHeight="574.0" prefWidth="535.0" style="-fx-background-color: #fdfdff;" AnchorPane.bottomAnchor="89.60000000000002" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="36.0">
+         <children>
+            <AnchorPane layoutX="238.0" layoutY="281.0" prefHeight="18.0" prefWidth="362.0" style="-fx-background-color: #6b63a4;" AnchorPane.bottomAnchor="293.4" AnchorPane.leftAnchor="238.0" AnchorPane.rightAnchor="239.60000000000002" AnchorPane.topAnchor="281.0" />
+            <Label layoutX="90.0" layoutY="42.0" prefHeight="36.0" prefWidth="217.0" text="Create an Account" AnchorPane.leftAnchor="90.0" AnchorPane.topAnchor="42.0">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="tf_create_password" layoutX="200.0" layoutY="320.0" prefHeight="26.0" prefWidth="266.0" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="320.0" />
+            <Label layoutX="88.0" layoutY="109.0" prefHeight="22.0" prefWidth="82.0" text="Full Name" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="110.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="78.0" layoutY="163.0" prefHeight="22.0" prefWidth="76.0" text="Phone" AnchorPane.leftAnchor="78.0" AnchorPane.topAnchor="163.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="72.0" layoutY="229.0" text="Email" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="216.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="75.0" layoutY="324.0" text="Password" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="322.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="bt_cancel" layoutX="80.0" layoutY="423.0" mnemonicParsing="false" onAction="#doCancel" style="-fx-background-color: #18cb72;" text="Cancel" />
+            <TextField fx:id="tf_create_email" layoutX="199.0" layoutY="214.0" prefHeight="26.0" prefWidth="266.0" promptText=" johndoe@gmail.com" AnchorPane.leftAnchor="199.0" AnchorPane.topAnchor="214.0" />
+            <TextField fx:id="tf_create_phone" layoutX="199.0" layoutY="161.0" prefHeight="25.0" prefWidth="266.0" promptText=" 01XXXXXXXXX" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="161.0" />
+            <TextField fx:id="tf_create_name" layoutX="199.0" layoutY="108.0" prefHeight="25.0" prefWidth="266.0" promptText=" Mohammade Mohsin" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="108.0" />
+            <Label layoutX="73.0" layoutY="261.0" text="Username" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="269.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_create_username" layoutX="200.0" layoutY="267.0" prefHeight="25.0" prefWidth="266.0" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="270.0" />
+            <Button fx:id="bt_create" layoutX="384.0" layoutY="423.0" mnemonicParsing="false" onAction="#doCreate" style="-fx-background-color: #18cb72;" text="Create" />
+            <Label fx:id="lb_message" layoutX="175.0" layoutY="522.0" prefHeight="17.0" prefWidth="186.0" />
+            <Button fx:id="bt_back_to_home" layoutX="223.0" layoutY="527.0" mnemonicParsing="false" onAction="#back_to_home" text="Back to homepage" AnchorPane.bottomAnchor="21.799999999999976" AnchorPane.leftAnchor="223.0" AnchorPane.rightAnchor="217.8">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label fx:id="Register_Successfully_Massag" alignment="CENTER" layoutX="15.0" layoutY="393.0" prefHeight="18.0" prefWidth="531.0" textFill="#ca431e" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

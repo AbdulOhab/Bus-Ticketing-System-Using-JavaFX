@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #d0d3d4;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UserLoginController">
+   <children>
+      <AnchorPane prefHeight="302.0" prefWidth="900.0" style="-fx-background-color: #9c0aef;" AnchorPane.bottomAnchor="397.6" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane layoutX="30.0" layoutY="36.0" prefHeight="511.0" prefWidth="679.0" style="-fx-background-color: #fdfdff;" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="36.0">
+         <children>
+            <Label alignment="CENTER" layoutX="30.0" layoutY="57.0" text="OMR Bus Ticketing System" AnchorPane.bottomAnchor="468.8" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="35.0">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="63.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="104.0" layoutY="145.0" prefHeight="138.0" prefWidth="635.0" text="LogIN" textFill="#3720cd" AnchorPane.bottomAnchor="299.6" AnchorPane.leftAnchor="104.0" AnchorPane.rightAnchor="100.79999999999995" AnchorPane.topAnchor="145.0">
+               <font>
+                  <Font name="Reem Kufi Regular" size="96.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="238.0" layoutY="296.0" prefHeight="18.0" prefWidth="362.0" style="-fx-background-color: #6b63a4;" AnchorPane.bottomAnchor="278.4" AnchorPane.leftAnchor="238.0" AnchorPane.rightAnchor="239.60000000000002" AnchorPane.topAnchor="296.0" />
+            <Label fx:id="lb_need_an_account" alignment="CENTER" layoutX="279.0" layoutY="561.0" prefHeight="27.0" prefWidth="169.0" text="Need an account?" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="316.0" AnchorPane.rightAnchor="355.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_username" layoutX="104.0" layoutY="368.0" prefHeight="26.0" prefWidth="635.0" promptText="Username" />
+            <Button fx:id="bt_create_account" layoutX="477.0" layoutY="543.0" mnemonicParsing="false" onAction="#bt_take_to_create_account" prefHeight="29.0" prefWidth="70.0" text="sign UP" textFill="#2ac9dd">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="bt_userlogin" layoutX="669.0" layoutY="472.0" mnemonicParsing="false" onAction="#doLogin" prefHeight="26.0" prefWidth="70.0" text="Login">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="12.0" />
+               </font>
+            </Button>
+            <PasswordField fx:id="f_password" layoutX="104.0" layoutY="424.0" prefHeight="26.0" prefWidth="635.0" promptText="Password" />
+            <Button layoutX="104.0" layoutY="486.0" mnemonicParsing="false" onAction="#back_to_homeOnAction" text="Back To Home" AnchorPane.leftAnchor="104.0" AnchorPane.rightAnchor="643.2" AnchorPane.topAnchor="486.0" />
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="316.0" layoutY="668.0" text="Terms of Use . Help .Privacy Policy" AnchorPane.bottomAnchor="14.399999999999999" AnchorPane.leftAnchor="316.0" AnchorPane.rightAnchor="403.2" />
+   </children>
+</AnchorPane>
