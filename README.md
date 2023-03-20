@@ -7,4 +7,4 @@ This Bus ticketing system structure, users can register and log in to the system
 The JavaFX framework provides an interactive and attractive interface to the users, making the ticket booking process straightforward and convenient. The system also ensures secure and reliable transactions using various payment gateways. Moreover, the system provides real-time notifications to the users, informing them about the bus's arrival time and other details. 
 
 In conclusion, the Bus ticketing system in JavaFX is an efficient and reliable solution for passengers to book their bus tickets online, and for bus operators to manage their buses, fares, and bookings seamlessly.
-## University project
+## University project ##
