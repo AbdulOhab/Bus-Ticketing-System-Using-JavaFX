@@ -1,0 +1,9 @@
+ rejoan ,12345678 ,2021-02-27 ,Dhaka ,Nazipur  ,2 ,2000
+ Mesba  ,017954031127 ,2021-02-14 ,Jassore ,Dhaka ,2 ,3000
+ null ,null ,null ,null ,null ,null ,null
+ null ,null ,2021-02-12 ,null ,null ,null
+ null ,null ,null ,[Mary, Bob, sam] ,null ,null ,null
+ null ,null ,null ,[Dhaka, Rajshahi, Chittagong, Sylhet] ,[Mymensingh, Barisal, Rangpur, Khulna] ,5 ,6
+ null ,null ,null ,Dhaka ,[Mymensingh, Barisal, Rangpur, Khulna] ,null ,null
+ java ,fghjkl ,2021-02-16 ,Rajshahi ,Mymensingh ,12 ,2
+ lola ,gola ,2021-02-10 ,Dhaka ,Rangpur ,2 ,600

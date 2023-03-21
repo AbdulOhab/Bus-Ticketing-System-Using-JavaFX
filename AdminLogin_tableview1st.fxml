@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminLoginTabableviewController">
+   <children>
+      <TableView fx:id="table" layoutX="175.0" layoutY="44.0" prefHeight="656.0" prefWidth="723.0" AnchorPane.leftAnchor="175.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="45.0">
+        <columns>
+          <TableColumn fx:id="Customername" prefWidth="151.0" text="Customername" />
+          <TableColumn fx:id="Phone" prefWidth="114.0" text="Phone" />
+            <TableColumn fx:id="Date" prefWidth="85.0" text="Date" />
+            <TableColumn fx:id="From" prefWidth="118.0" text="From" />
+            <TableColumn fx:id="To" prefWidth="104.0" text="To" />
+            <TableColumn fx:id="Seat" prefWidth="74.0" text="Seats" />
+            <TableColumn fx:id="Price" prefWidth="76.0" text="Price" />
+        </columns>
+      </TableView>
+      <Label layoutX="435.0" layoutY="14.0" text="Admin Panel" AnchorPane.topAnchor="6.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="bt_accountInfo" layoutX="14.0" layoutY="159.0" mnemonicParsing="false" onAction="#AccountInformation_onAction" prefHeight="71.0" prefWidth="153.0" text="Account Information" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="160.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="bt_homepage" layoutX="14.0" layoutY="279.0" mnemonicParsing="false" onAction="#gotohomepage_onAction" prefHeight="71.0" prefWidth="153.0" text="Go to homepage" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="280.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="bt_cancel" layoutX="14.0" layoutY="399.0" mnemonicParsing="false" onAction="#ONaction_Cancel" prefHeight="71.0" prefWidth="153.0" text="Cancel" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="399.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
